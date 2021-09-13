@@ -1,5 +1,5 @@
 export class Movie{
+  id: number;
   name: string;
-  hours: number;
-  minutes: number;
+  playtime: string;
 }
