@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "node_modules/bootstrap/scss/bootstrap";
+
+.dark {
+  background-color: #313131;
+  * {
+    border-color: rgba(222, 224, 188, 0.699);
+    background-color: #313131;
+    color: rgba(222, 224, 188, 0.699);
+    .btn {
+      &:hover {
+        background-color: #0000;
+        border-color: rgba(205, 209, 125, 0.699);
+      }
+    }
+  }
+}
