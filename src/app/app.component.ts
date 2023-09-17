@@ -86,59 +86,84 @@ export class AppComponent implements OnInit {
     },
     {
       id: 15,
-      name: 'The First Avenger: Civil War',
+      name: 'Captain America: Civil War',
       playtime: '2:28'
     },
     {
       id: 16,
+      name: 'Black Widow',
+      playtime: '2:14'
+    },
+    {
+      id: 17,
       name: 'Black Panther',
       playtime: '2:15'
     },
     {
-      id: 17,
+      id: 18,
       name: 'Spider-Man: Homecoming',
       playtime: '2:13'
     },
     {
-      id: 18,
+      id: 19,
       name: 'Doctor Strange',
       playtime: '1:55'
     },
     {
-      id: 19,
+      id: 20,
       name: 'Thor: Ragnarok',
       playtime: '2:10'
     },
     {
-      id: 20,
+      id: 21,
       name: 'Ant-Man and the Wasp',
       playtime: '2:05'
     },
     {
-      id: 21,
+      id: 22,
       name: 'Avengers: Infinity War',
       playtime: '2:40'
     },
     {
-      id: 22,
+      id: 23,
       name: 'Avengers: Endgame',
       playtime: '3:02'
     },
     {
-      id: 23,
+      id: 24,
       name: 'Spider-Man: Far From Home',
       playtime: '2:09'
-    },
-    {
-      id: 24,
-      name: 'Black Widow',
-      playtime: '2:14'
     },
     {
       id: 25,
       name: 'Shang-Chi and the Legend of the Ten Rings',
       playtime: '2:12'
-    }
+    },
+    {
+      id: 26,
+      name: 'Doctor Strange in the Multiverse of Madness',
+      playtime: '2:06'
+    },
+    {
+      id: 27,
+      name: 'Black Panther: Wakanda Forever',
+      playtime: '2:42'
+    },
+    {
+      id: 28,
+      name: 'Thor: Love and Thunder',
+      playtime: '1:59'
+    },
+    {
+      id: 29,
+      name: 'Ant-Man and the Wasp: Quantumania',
+      playtime: '2:05'
+    },
+    {
+      id: 30,
+      name: 'Guardians of the Galaxy Vol. 3',
+      playtime: '2:29'
+    },
   ];
   movies: Movie[] = [];
   selected: Movie[] = [];
