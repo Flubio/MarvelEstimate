@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build -- --configuration production --base-href https://flubio.github.io/MarvelEstimate",
+    "build:prod": "ng build --configuration production --base-href https://flubio.github.io/MarvelEstimate",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
