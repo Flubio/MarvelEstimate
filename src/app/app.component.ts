@@ -253,8 +253,7 @@ export class AppComponent {
     localStorage.removeItem('movies');
     localStorage.removeItem('time');
     this.selected = [];
-    this.totalviewtime = '';
-    this.formatedtime = '';
+    this.calculate();
   }
 
   calculate(x?: moment.Duration) {
